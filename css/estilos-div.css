@@ -1,0 +1,34 @@
+#green {
+color: green;
+}
+div {
+    color: red;
+    }
+    .green-and-bold {
+        font-weight: bold;
+        color: green;
+        background-color: antiquewhite;
+        }
+        div {
+        color: red;
+         }
+ #red {
+     color:red
+ }        
+ .blackstrong {
+     font-size: large;
+     font-weight: lighter;
+     font-family: Georgia;
+     color: black;
+ }
+#green-and-lighter {
+    font-weight: lighter;
+    color: green;
+}
+.centrar {
+    text-align: center;
+    }
+.red {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}

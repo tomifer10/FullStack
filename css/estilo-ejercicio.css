@@ -1,0 +1,14 @@
+.primeraclase {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.segundaclase {
+    font-weight: bold;
+    color: blanchedalmond;
+}
+.terceraclase {
+    color: blueviolet;
+    background-color: blanchedalmond;
+    font-style: oblique;
+}
