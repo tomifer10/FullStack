@@ -17,3 +17,7 @@ nav.main-nav {
 header.main-header {
     background-color: cornflowerblue;
 }
+
+.main-header > div {
+    display: inline-block;
+}
