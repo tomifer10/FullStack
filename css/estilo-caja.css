@@ -1,0 +1,22 @@
+/* div {
+    width: 300px;
+    padding: 5px;
+    border: 5px solid lightgreen;
+    margin: 0;
+    } */
+#uno {
+    width: 300px;
+    padding: 10px;
+    border: 5px solid lightcoral;
+    margin: 0;
+    
+}
+#dos {
+    width: 250px;
+    padding: 40px;
+    border: 5px solid lightgreen;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
