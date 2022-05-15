@@ -1,9 +1,13 @@
+body {
+    background-color: rgb(203, 185, 157);
+}
 .header {
     font-size: medium;
     font-weight: bold;
     color: rgb(178, 35, 12);
-    background-color: yellow;
     display: inline-block;
+
+
 }
 h2 {
     text-align: left;
@@ -30,4 +34,8 @@ h3 {
     font-weight: bold;
     color: saddlebrown;
     text-transform: uppercase;
+}
+p {
+text-indent:20px ;
+line-height: 1.5;
 }
