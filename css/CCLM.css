@@ -9,7 +9,8 @@ h2 {
     text-align: left;
     text-decoration: underline;
     font-weight: bold;
-
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 p span {
     font-style: italic ;
@@ -17,4 +18,16 @@ p span {
 h3 {
     text-align: left;
     font-weight: lighter;   
+}
+.indice {
+    width: 300px;
+    padding: 5px;
+    border: 5px solid saddlebrown;
+    margin: 0;
+}
+.tituloindice {
+    font-size: medium;
+    font-weight: bold;
+    color: saddlebrown;
+    text-transform: uppercase;
 }
