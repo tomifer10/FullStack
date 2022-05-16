@@ -1,0 +1,77 @@
+h1.spacing {
+    word-spacing: 10px;
+}
+h2.spacing {
+    word-spacing: -5px;
+}
+h1.shadow {
+    text-shadow: 3px 2px 10px red;
+}
+p.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
+h1.size {
+    font-size: 5vw;
+}
+h2.size {
+    font-size: 30px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+p.size {
+    font-size: 2px;
+}
+h1.em {
+    font-size: 2.5em;
+}
+h2.em {
+    font-size: 1.875em;
+}
+p.em {
+    font-size: 0.875em;
+}
+p.normal {
+    font-weight: normal;
+}
+p.light {
+    font-weight: lighter;
+}
+p.thick {
+    font-weight: bold;
+}
+p.thicker {
+    font-weight: 900;
+}
+.middle > * {
+    vertical-align: middle;
+    }
+.top > * {
+        vertical-align: top;
+        }
+.bottom > * {
+        vertical-align: bottom;
+        }
+h2 {
+         display: inline-block;
+        margin: 0;
+        width: 150px;
+        text-align: right;
+        font: bold 20px Sans-Serif;
+        }
+div {
+        margin: 0 0 30px 0;
+        padding: 10px;
+        }
