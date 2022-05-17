@@ -2,6 +2,8 @@ body {
     background-color: rgb(203, 185, 157);
 }
 .header {
+    width: 1000px  ;
+    height: 100px;
     font-size: medium;
     font-weight: bold;
     color: rgb(178, 35, 12);
