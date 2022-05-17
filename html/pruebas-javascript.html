@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruebs Javascript (Frontend)</title>
     <script src="../js/primerjavascript.js"></script>
+    <!-- importación de la librería jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
     <script>
         alert("Hello World!")
     </script>
@@ -15,6 +18,7 @@
     <p id="demo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio recusandae mollitia ad repellat dolore hic omnis, aperiam, est quos quisquam quia rem doloribus illo. Ea saepe illo possimus nesciunt magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod obcaecati repellendus error minus assumenda, suscipit dicta. Eaque cupiditate labore eos aspernatur dolorum perspiciatis quae praesentium, dicta, facere aliquid, ipsa voluptates?</p>
     <button type="submit" onclick="cambia()"> Click para cambiar</button>
     <button type="submit" onclick="inicial()" >Click para volver</button>
+    <button type="submit" onclick="saludar()" >Alejandro</button>
     <script>
       document.write("Hello World!");
     </script>
@@ -28,6 +32,28 @@
         function inicial() {
             document.getElementById("demo").innerHTML= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio recusandae mollitia ad repellat dolore hic omnis, aperiam, est quos quisquam quia rem doloribus illo. Ea saepe illo possimus nesciunt magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod obcaecati repellendus error minus assumenda, suscipit dicta. Eaque cupiditate labore eos aspernatur dolorum perspiciatis quae praesentium, dicta, facere aliquid, ipsa voluptates?" 
         }
+    </script>
+    <script>
+    $(document).ready(function(){
+        console.log('Librería jQuery cargada');
+    });
+    </script>
+    <script>
+        console.log('en', 'un', 'lugar', 'de', 'la', 'Mancha');
+        console.info('Info');
+        console.warn('Warning');
+        console.error('Error');
+        document.write("Texto2");
+    </script>
+    <p id="demo2">
+        hola
+    </p>
+    <script>
+    document.getElementById("demo2").innerHTML = "hola";
+    const nombre = "Alejandro";
+    function saludar() {
+    document.write(nombre);
+    }
     </script>
 </body>
 </html>
