@@ -1,12 +1,14 @@
 .flex-direction {
     display: flex;
+    padding-right: 2em;
     flex-direction: row;
     background-color: blanchedalmond;
     justify-content: flex-end;
 }
 .flex-direction > div {
     background-color: aquamarine;
-    width: 150px;
+    padding-left: 2em;
+    width: 160px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
