@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebs Javascript (Frontend)</title>
+    <script src="../js/primerjavascript.js"></script>
+    <script>
+        alert("Hello World!")
+    </script>
+</head>
+<body>
+    <h1>Pruebas JAVASCRIPT (Frontend)</h1>
+    <p id="demo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio recusandae mollitia ad repellat dolore hic omnis, aperiam, est quos quisquam quia rem doloribus illo. Ea saepe illo possimus nesciunt magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod obcaecati repellendus error minus assumenda, suscipit dicta. Eaque cupiditate labore eos aspernatur dolorum perspiciatis quae praesentium, dicta, facere aliquid, ipsa voluptates?</p>
+    <button type="submit" onclick="cambia()"> Click para cambiar</button>
+    <button type="submit" onclick="inicial()" >Click para volver</button>
+    <script>
+      document.write("Hello World!");
+    </script>
+    <noscript>
+        Lo siento, tu navegador no acepta JavaScript!
+    </noscript>
+    <script>
+        function cambia() {
+        document.getElementById("demo").innerHTML = "Párrafo cambiado";
+        }
+        function inicial() {
+            document.getElementById("demo").innerHTML= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio recusandae mollitia ad repellat dolore hic omnis, aperiam, est quos quisquam quia rem doloribus illo. Ea saepe illo possimus nesciunt magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod obcaecati repellendus error minus assumenda, suscipit dicta. Eaque cupiditate labore eos aspernatur dolorum perspiciatis quae praesentium, dicta, facere aliquid, ipsa voluptates?" 
+        }
+    </script>
+</body>
+</html>
