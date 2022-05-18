@@ -1,17 +1,15 @@
-.flex-direction {
+.flex-container {
     display: flex;
-    padding-right: 2em;
-    flex-direction: row;
-    background-color: blanchedalmond;
-    justify-content: flex-end;
+   flex-direction: row;
+   background-color: blanchedalmond;
 }
-.flex-direction > div {
-    background-color: aquamarine;
-    padding-left: 2em;
-    width: 160px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+.flex-container > div {
+    display: inline-flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 20px;
 }
