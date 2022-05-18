@@ -16,4 +16,31 @@ let variable4;
 // undefined
 console.log(variable4);
 // error
-console.log(variable_nodeclarada);
+
+const str2 = 'hola';
+// 3
+console.log(str2.indexOf('a'));
+// 1
+console.log(str2.indexOf('ol'));
+// -1
+console.log(str2.indexOf('r'));
+const str3 = 'hola';
+// 'lo'
+console.log(str3.substring(1, 3));
+// 'ola'
+console.log(str3.substring(1));
+
+const semana= new Array('lunes','martes','miercoles','jueves','viernes','sabado','domingo')
+console.log (semana[2]);
+semana.length = 4;
+console.log (semana)
+
+// Array dimension
+const array9 = new Array('Carmen', 'Juan');
+array9[3] = 'Alejandro';
+// [ 'Carmen', 'Juan', <1 empty item>, 'Alejandro' ]
+console.log(array9);
+
+const date1 = new Date();
+// Sun Apr 22 2018 12:37:06 GMT+0200 (Hora de verano romance)
+console.log(date1);
