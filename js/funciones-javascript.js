@@ -66,12 +66,19 @@ const dividir = (x,y)=> {
 console.log (sumar (1,2))
 console.log (restar (1,2))
 
-//Ejercicio 2
+//Ejercicio 2 y 3
 
-const sumando = (t,l)=> t+l;
+const sumando = (t,l,callback)=> callback (t+l);
 
-console.log (sumando (4,2))
+const restando=(t,l,callback)=> callback(t-l);
 
-const restando=(t,l)=> t-l;
+const multiplicando =(t,l)=> t*l;
 
-console.log (restando (4,2))
+console.log (multiplicando(4,2))
+
+const callback =(resultado) => {
+    console.log(resultado);
+}
+
+sumando(4,5,callback);
+restando(8,4,callback);
