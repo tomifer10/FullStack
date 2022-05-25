@@ -82,3 +82,9 @@ const callback =(resultado) => {
 
 sumando(4,5,callback);
 restando(8,4,callback);
+
+// Ejercicio 4: adaptar el ejercicio anterior para integrar el callback en la invocación de las
+// cuatro funciones, en lugar de creándola como una función de callback por separado.
+// Utilizar la herramienta de depuración de Chrome para comprobar cómo se ejecuta el
+// programa.
+// 177
