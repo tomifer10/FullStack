@@ -87,3 +87,15 @@ console.log(a);
 // b
 console.log(b);
 
+//Declaracion glboal window, this y buenas tardes
+
+function buenastardes() {
+    console.log('buenas tardes');
+    }
+    // hola
+    console.log(window.buenastardes());
+    // hola
+    console.log(this.buenastardes());
+    // hola
+    buenastardes();
+    
